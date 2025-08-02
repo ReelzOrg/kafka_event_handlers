@@ -1,5 +1,5 @@
 import { KafkaJS } from "@confluentinc/kafka-javascript";
-import { neo4jQuery } from "../../dbFuncs/neo4jFuncs";
+import { neo4jQuery } from "./neo4jUtility";
 
 // Kafka Config
 const KAFKA_BROKERS = 'localhost:9092';

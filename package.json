@@ -1,0 +1,25 @@
+{
+  "name": "kafka_event_handlers",
+  "version": "1.0.0",
+  "description": "This repository will contain all the consumers (and maybe producers) for the Kafka topics.",
+  "main": "databaseSync.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReelzOrg/kafka_event_handlers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ReelzOrg/kafka_event_handlers/issues"
+  },
+  "homepage": "https://github.com/ReelzOrg/kafka_event_handlers#readme",
+  "dependencies": {
+    "@confluentinc/kafka-javascript": "^1.4.0",
+    "neo4j-driver": "^5.28.1"
+  }
+}
