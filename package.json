@@ -20,6 +20,7 @@
   "homepage": "https://github.com/ReelzOrg/kafka_event_handlers#readme",
   "dependencies": {
     "@confluentinc/kafka-javascript": "^1.4.0",
-    "neo4j-driver": "^5.28.1"
+    "neo4j-driver": "^5.28.1",
+    "typesense": "^2.0.3"
   }
 }
