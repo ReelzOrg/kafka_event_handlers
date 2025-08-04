@@ -1,5 +1,5 @@
 import { syncHandler } from "../utilities/kafkaUtility.js";
-import { neo4jQuery } from "../neo4jUtility.js";
+import { neo4jQuery } from "../utilities/neo4jUtility.js";
 
 const USER_CREATED_SOURCE_TOPIC = "app_events_UserCreated";
 
